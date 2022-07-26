@@ -34,7 +34,7 @@ internal class SwipeToDismissHandler(
         private const val ANIMATION_DURATION = 200L
     }
 
-    private var translationLimit: Int = swipeView.height / 4
+    private var translationLimit: Int = swipeView.height / 16
     private var isTracking = false
     private var startY: Float = 0f
 
